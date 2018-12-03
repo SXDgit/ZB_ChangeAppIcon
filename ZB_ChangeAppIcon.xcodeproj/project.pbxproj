@@ -15,6 +15,15 @@
 		EA2D45D021B52DFC006335B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2D45CF21B52DFC006335B1 /* main.m */; };
 		EA2D45DA21B52DFC006335B1 /* ZB_ChangeAppIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2D45D921B52DFC006335B1 /* ZB_ChangeAppIconTests.m */; };
 		EA2D45E521B52DFC006335B1 /* ZB_ChangeAppIconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2D45E421B52DFC006335B1 /* ZB_ChangeAppIconUITests.m */; };
+		EA2D45FB21B52E0C006335B1 /* AIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F321B52E0C006335B1 /* AIcon@2x.png */; };
+		EA2D45FC21B52E0C006335B1 /* AIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F421B52E0C006335B1 /* AIcon@3x.png */; };
+		EA2D45FD21B52E0C006335B1 /* ALLIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F521B52E0C006335B1 /* ALLIcon@2x.png */; };
+		EA2D45FE21B52E0C006335B1 /* ALLIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F621B52E0C006335B1 /* ALLIcon@3x.png */; };
+		EA2D45FF21B52E0C006335B1 /* BIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F721B52E0C006335B1 /* BIcon@2x.png */; };
+		EA2D460021B52E0C006335B1 /* BIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F821B52E0C006335B1 /* BIcon@3x.png */; };
+		EA2D460121B52E0C006335B1 /* CIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45F921B52E0C006335B1 /* CIcon@2x.png */; };
+		EA2D460221B52E0C006335B1 /* CIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2D45FA21B52E0C006335B1 /* CIcon@3x.png */; };
+		EA2D460521B52E86006335B1 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2D460321B52E85006335B1 /* UIViewController+Present.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		EA2D45E021B52DFC006335B1 /* ZB_ChangeAppIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZB_ChangeAppIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2D45E421B52DFC006335B1 /* ZB_ChangeAppIconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZB_ChangeAppIconUITests.m; sourceTree = "<group>"; };
 		EA2D45E621B52DFC006335B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2D45F321B52E0C006335B1 /* AIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AIcon@2x.png"; sourceTree = "<group>"; };
+		EA2D45F421B52E0C006335B1 /* AIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AIcon@3x.png"; sourceTree = "<group>"; };
+		EA2D45F521B52E0C006335B1 /* ALLIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALLIcon@2x.png"; sourceTree = "<group>"; };
+		EA2D45F621B52E0C006335B1 /* ALLIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALLIcon@3x.png"; sourceTree = "<group>"; };
+		EA2D45F721B52E0C006335B1 /* BIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BIcon@2x.png"; sourceTree = "<group>"; };
+		EA2D45F821B52E0C006335B1 /* BIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BIcon@3x.png"; sourceTree = "<group>"; };
+		EA2D45F921B52E0C006335B1 /* CIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CIcon@2x.png"; sourceTree = "<group>"; };
+		EA2D45FA21B52E0C006335B1 /* CIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CIcon@3x.png"; sourceTree = "<group>"; };
+		EA2D460321B52E85006335B1 /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Present.m"; path = "ZB_ChangeAppIcon/UIViewController+Present.m"; sourceTree = SOURCE_ROOT; };
+		EA2D460421B52E85006335B1 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Present.h"; path = "ZB_ChangeAppIcon/UIViewController+Present.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,13 @@
 		EA2D45BF21B52DFC006335B1 /* ZB_ChangeAppIcon */ = {
 			isa = PBXGroup;
 			children = (
+				EA2D45F221B52E0C006335B1 /* Icons */,
 				EA2D45C021B52DFC006335B1 /* AppDelegate.h */,
 				EA2D45C121B52DFC006335B1 /* AppDelegate.m */,
 				EA2D45C321B52DFC006335B1 /* ViewController.h */,
 				EA2D45C421B52DFC006335B1 /* ViewController.m */,
+				EA2D460421B52E85006335B1 /* UIViewController+Present.h */,
+				EA2D460321B52E85006335B1 /* UIViewController+Present.m */,
 				EA2D45C621B52DFC006335B1 /* Main.storyboard */,
 				EA2D45C921B52DFC006335B1 /* Assets.xcassets */,
 				EA2D45CB21B52DFC006335B1 /* LaunchScreen.storyboard */,
@@ -130,6 +152,21 @@
 				EA2D45E621B52DFC006335B1 /* Info.plist */,
 			);
 			path = ZB_ChangeAppIconUITests;
+			sourceTree = "<group>";
+		};
+		EA2D45F221B52E0C006335B1 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EA2D45F321B52E0C006335B1 /* AIcon@2x.png */,
+				EA2D45F421B52E0C006335B1 /* AIcon@3x.png */,
+				EA2D45F521B52E0C006335B1 /* ALLIcon@2x.png */,
+				EA2D45F621B52E0C006335B1 /* ALLIcon@3x.png */,
+				EA2D45F721B52E0C006335B1 /* BIcon@2x.png */,
+				EA2D45F821B52E0C006335B1 /* BIcon@3x.png */,
+				EA2D45F921B52E0C006335B1 /* CIcon@2x.png */,
+				EA2D45FA21B52E0C006335B1 /* CIcon@3x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2D45FE21B52E0C006335B1 /* ALLIcon@3x.png in Resources */,
+				EA2D460221B52E0C006335B1 /* CIcon@3x.png in Resources */,
 				EA2D45CD21B52DFC006335B1 /* LaunchScreen.storyboard in Resources */,
 				EA2D45CA21B52DFC006335B1 /* Assets.xcassets in Resources */,
+				EA2D45FC21B52E0C006335B1 /* AIcon@3x.png in Resources */,
+				EA2D45FF21B52E0C006335B1 /* BIcon@2x.png in Resources */,
+				EA2D45FD21B52E0C006335B1 /* ALLIcon@2x.png in Resources */,
 				EA2D45C821B52DFC006335B1 /* Main.storyboard in Resources */,
+				EA2D45FB21B52E0C006335B1 /* AIcon@2x.png in Resources */,
+				EA2D460021B52E0C006335B1 /* BIcon@3x.png in Resources */,
+				EA2D460121B52E0C006335B1 /* CIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +312,7 @@
 			files = (
 				EA2D45C521B52DFC006335B1 /* ViewController.m in Sources */,
 				EA2D45D021B52DFC006335B1 /* main.m in Sources */,
+				EA2D460521B52E86006335B1 /* UIViewController+Present.m in Sources */,
 				EA2D45C221B52DFC006335B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
 				INFOPLIST_FILE = ZB_ChangeAppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fooww.ZB-ChangeAppIcon";
@@ -444,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R45LY736NP;
 				INFOPLIST_FILE = ZB_ChangeAppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fooww.ZB-ChangeAppIcon";
